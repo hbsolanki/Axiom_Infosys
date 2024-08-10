@@ -1,4 +1,12 @@
-import React from "react";
+import DesktopPc from "../../assets/Services/DesktopPc.jpeg";
+import Laptops from "../../assets/Services/Laptops.jpeg";
+import Printers from "../../assets/Services/Printers.jpeg";
+import CCTVCameras from "../../assets/Services/CCTVCameras.jpeg";
+import Projector from "../../assets/Services/Projector.jpeg";
+import DataRecovery from "../../assets/Services/DataRecovery.jpeg";
+import NetworkServers from "../../assets/Services/NetworkServers.jpeg";
+import ComputerAccessories from "../../assets/Services/ComputerAccessories.jpeg";
+import Software from "../../assets/Services/Software.jpeg";
 
 const Service = () => {
   return (
@@ -21,104 +29,48 @@ const Service = () => {
         <div className="-mx-4 flex flex-wrap">
           <ServiceCard
             title="Desktop PC"
-            href={"desktoppc"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                // className=" h-[70px] w-[100vh]"
-                src={
-                  "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                }
-              />
-            }
+            icon={DesktopPc}
           />
           <ServiceCard
             title="Laptops"
-            href={"laptops"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"./Main_Services/pexels-craigmdennis-205421.jpg"}
-              />
-            }
+            icon={Laptops}
           />
           <ServiceCard
             title="Printers"
-            href={"printers"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"../../assets/Main_Services/Printers.jpeg"}
-              />
-            }
+            icon={Printers}
           />
           <ServiceCard
             title="CCTV"
-            href={"cctv"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"../../assets/Main_Services/CCTVCameras.jpeg"}
-              />
-            }
+            icon={CCTVCameras}
           />
           <ServiceCard
             title="Projector"
-            href={"projector"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"../../assets/Main_Services/Projector.jpeg"}
-              />
-            }
+            icon={Projector}
           />
           <ServiceCard
             title="Data Recovery"
-            href={"datarecovery"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"../../assets/Main_Services/DataRecovery.jpeg"}
-              />
-            }
+            icon={DataRecovery}
           />
           <ServiceCard
             title="Network-Servers"
-            href={"networkservers"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"../../assets/Main_Services/NetworkServers.jpeg"}
-              />
-            }
+            icon={NetworkServers}
           />
           <ServiceCard
             title="Computer Accessories"
-            href={"computeraccessories"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"../../assets/Main_Services/ComputerAccessories.jpeg"}
-              />
-            }
+            icon={ComputerAccessories}
           />
           <ServiceCard
             title="Software Installation"
-            href={"softwareinstallation"}
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={
-              <img
-                className=" h-[70px] w-[100vh]"
-                src={"../../assets/Main_Services/Software.jpeg"}
-              />
-            }
+            icon={Software}
           />
         </div>
       </div>
@@ -129,21 +81,20 @@ const Service = () => {
 export default Service;
 
 // eslint-disable-next-line react/prop-types
-const ServiceCard = ({ icon, title, details, href }) => {
+const ServiceCard = ({ icon, title, details }) => {
   return (
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-        <a href={"/" + href}>
-          <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
-            <div className="mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
-              {icon}
-            </div>
-            <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-black">
-              {title}
-            </h4>
-            <p className="text-body-color dark:text-dark-6">{details}</p>
-          </div>
-        </a>
+        <div className="mb-9 rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
+          <img
+            className="mb-8 h-40 w-60 flex items-center justify-center rounded-2xl bg-primary"
+            src={icon}
+          />
+          <h4 className="mb-[14px] text-2xl font-semibold text-dark dark:text-black">
+            {title}
+          </h4>
+          <p className="text-body-color dark:text-dark-6">{details}</p>
+        </div>
       </div>
     </>
   );
