@@ -1,15 +1,12 @@
-import { useState } from "react";
-import CountUp from "react-countup";
-import ScrollTrigger from "react-scroll-trigger";
 import "./Home.css";
 import BlogSection from "./BlogSection";
 import Company from "./Company";
+import CustomerCount from "./CustomerCount";
 
 function Home() {
-  const [counterOn, setCounterOn] = useState(false);
   return (
     <>
-      <div className="content h-fit">
+      <div className="content ">
         <h1>Axiom Infosys</h1>
         <p className="par">
           We are Sales and Service Providers of all
@@ -28,28 +25,9 @@ function Home() {
         <button className="cn ">
           <a href="tel:+919898360081">CONTACT US</a>
         </button>
-        {/* <div className="countup-main bg-black align-middle text-center ring-offset-2 ring-2 ">
-          <h4>Happy Customer</h4>
-          <div className="countup">
-            <ScrollTrigger
-              onEnter={() => {
-                setCounterOn(true);
-              }}
-              onExit={() => {
-                setCounterOn(false);
-              }}
-            >
-              <h1>
-                {counterOn && (
-                  <CountUp start={0} end={5000} duration={1} delay={0} />
-                )}
-                +
-              </h1>
-            </ScrollTrigger>
-          </div>
-        </div>*/}
       </div>
       <BlogSection />
+      <CustomerCount />
       <Company />
     </>
   );
