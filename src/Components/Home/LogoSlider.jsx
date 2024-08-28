@@ -2,7 +2,22 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import "./Logo.css";
+import AppleLogo from "../../assets/Brandweserv/AppleLogo.png";
+import AcerLogo from "../../assets/Brandweserv/AcerLogo.png";
+import AsusLogo from "../../assets/Brandweserv/AsusLogo.png";
+import DellLogo from "../../assets/Brandweserv/DellLogo.png";
+import FujitsuLogo from "../../assets/Brandweserv/FujitsuLogo.png";
+import HPLOGO from "../../assets/Brandweserv/HPLOGO.png";
+import IntelLogo from "../../assets/Brandweserv/IntelLogo.png";
+import LenovoLogo from "../../assets/Brandweserv/LenovoLogo.png";
+import LGlogo from "../../assets/Brandweserv/LGlogo.png";
+import MicrosoftLogo from "../../assets/Brandweserv/MicrosoftLogo.png";
+import MsiLogo from "../../assets/Brandweserv/MsiLogo.png";
+import SamsungLogo from "../../assets/Brandweserv/SamsungLogo.png";
+import SonyLogo from "../../assets/Brandweserv/SonyLogo.png";
+import ToshibaLogo from "../../assets/Brandweserv/ToshibaLogo.png";
+import VaioLogo from "../../assets/Brandweserv/VaioLogo.png";
 const LogoSlider = () => {
   const settings = {
     infinite: true,
@@ -21,77 +36,77 @@ const LogoSlider = () => {
         <Slider {...settings}>
           <div className="item">
             <a href="#">
-              <img src="AppleLogo.png" alt="Apple Logo" />
+              <img src={AppleLogo} alt="Apple Logo"></img>
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="HPLOGO.png" alt="HP Logo" />
+              <img src={HPLOGO} alt="HP Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Dell Logo.png" alt="Dell Logo" />
+              <img src={DellLogo} alt="Dell Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Asus Logo.png" alt="Asus Logo" />
+              <img src={AsusLogo} alt="Asus Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Msi Logo.png" alt="MSI Logo" />
+              <img src={MsiLogo} alt="MSI Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Acer Logo.png" alt="Acer Logo" />
+              <img src={AcerLogo} alt="Acer Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Microsoft Logo.png" alt="Microsoft Logo" />
+              <img src={MicrosoftLogo} alt="Microsoft Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Samsung Logo.png" alt="Samsung Logo" />
+              <img src={SamsungLogo} alt="Samsung Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Intel Logo.png" alt="Intel Logo" />
+              <img src={IntelLogo} alt="Intel Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="LenovoLogo.png" alt="Lenovo Logo" />
+              <img src={LenovoLogo} alt="Lenovo Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="LG logo.png" alt="LG Logo" />
+              <img src={LGlogo} alt="LG Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Fujitsu Logo.png" alt="Fujitsu Logo" />
+              <img src={FujitsuLogo} alt="Fujitsu Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Sony Logo.png" alt="Sony Logo" />
+              <img src={SonyLogo} alt="Sony Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Toshiba Logo.png" alt="Toshiba Logo" />
+              <img src={ToshibaLogo} alt="Toshiba Logo" />
             </a>
           </div>
           <div className="item">
             <a href="#">
-              <img src="Vaio Logo.png" alt="Vaio Logo" />
+              <img src={VaioLogo} alt="Vaio Logo" />
             </a>
           </div>
         </Slider>
