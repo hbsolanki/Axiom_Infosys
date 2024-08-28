@@ -7,6 +7,7 @@ import DataRecovery from "../../assets/Services/DataRecovery.jpeg";
 import NetworkServers from "../../assets/Services/NetworkServers.jpeg";
 import ComputerAccessories from "../../assets/Services/ComputerAccessories.jpeg";
 import Software from "../../assets/Services/Software.jpeg";
+import CustomBuiltPC from "../../assets/Services/CustomBuiltPC.jpeg";
 
 const Service = () => {
   return (
@@ -68,9 +69,9 @@ const Service = () => {
             icon={ComputerAccessories}
           />
           <ServiceCard
-            title="Software Installation"
+            title="Custom Built PC"
             details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-            icon={Software}
+            icon={CustomBuiltPC}
           />
         </div>
       </div>
