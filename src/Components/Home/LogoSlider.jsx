@@ -22,7 +22,7 @@ const LogoSlider = () => {
   const settings = {
     infinite: true,
     slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToScroll: 3,
     dots: true,
     arrows: true,
     autoplay: true,

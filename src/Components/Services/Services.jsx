@@ -30,47 +30,47 @@ const Service = () => {
         <div className="-mx-4 flex flex-wrap">
           <ServiceCard
             title="Desktop PC"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="PC Problem? We’ll solve it. We’re who you call when your desktop runs slow and your programs stop working. We Also Sell Refurbished PC and System."
             icon={DesktopPc}
           />
           <ServiceCard
             title="Laptops"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Laptop gone down? Don’t worry! Our qualified, friendly laptop repair technicians will bring it back to life.We Also Sell Best Quality Refurbished Laptops."
             icon={Laptops}
           />
           <ServiceCard
             title="Printers"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Is your printer giving you trouble? Our expert team is here to help with top-notch printer service and repair solutions. Whether you’re experiencing issues with your home printer or need support for your office’s high-volume machine, we provide reliable and efficient service to get you back up and running."
             icon={Printers}
           />
           <ServiceCard
             title="CCTV"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Ensure the safety and security of your property with our expert CCTV solutions. Whether you’re looking to purchase a new CCTV system or need professional repair services for your existing setup, we offer comprehensive solutions to meet all your surveillance needs."
             icon={CCTVCameras}
           />
           <ServiceCard
             title="Projector"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Illuminate your presentations, events, and entertainment with our top-quality projectors. Whether you’re looking to buy a projector for long-term use or rent one for a special occasion, we offer a wide range of options and services to meet your needs."
             icon={Projector}
           />
           <ServiceCard
-            title="Data Recovery"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            title="Data Backup & Recovery"
+            details="We can help you back up your important personal data (photos, videos, documents, school work, etc.) to disk and cloud with no hassles."
             icon={DataRecovery}
           />
           <ServiceCard
             title="Network-Servers"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Our technicians can set up a secure wireless network in your home that will allow you to share everything between as many computers as you like with 100% security."
             icon={NetworkServers}
           />
           <ServiceCard
             title="Computer Accessories"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="Explore Our Top-Quality Computer Accessories.Whether you’re a tech enthusiast, a professional, or just looking to upgrade your setup, we offer a wide range of products designed to enhance your computing experience. Discover the perfect accessories to complement your computer and elevate your productivity, gaming, or everyday tasks."
             icon={ComputerAccessories}
           />
           <ServiceCard
             title="Custom Built PC"
-            details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+            details="We are experienced in building custom computers to meet your specific needs using quality, stable components at an affordable price."
             icon={CustomBuiltPC}
           />
         </div>
