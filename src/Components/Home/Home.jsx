@@ -1,6 +1,6 @@
 import "./Home.css";
 import BlogSection from "./BlogSection";
-import Company from "./Company";
+import LogoSlider from "./LogoSlider";
 import CustomerCount from "./CustomerCount";
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
       </div>
       <BlogSection />
       <CustomerCount />
-      <Company />
+      <LogoSlider />
     </>
   );
 }
