@@ -11,14 +11,16 @@ function Home() {
         <p className="par">
           We are Sales and Service Providers of all
           <b>Laptops</b> ,<b>Desktops</b>, <b>CCTV Cameras </b>,<b>Printers</b>
-          and <b>All Computer/Laptop Accessories.</b><br />
+          and <b>All Computer/Laptop Accessories.</b>
+          <br />
           Also We are <b>Wholesellers</b> of <b>CCTV Cameras</b> and
           <b> SSD's</b>.<br />
           We have all <b>Degree Engineers</b> for work.Also we hold
           <b>Mastery</b> in <b>Laptop/Desktop</b> Repairing. <br />
+          <br />
           We are located at GF-3, Cascade Complex Opp. Mota Appartment, beside
           Raju Pan Corner, Chhani Jakatnaka, Vadodara, Gujarat - 390002 <br />
-          <b>Contact Number: 9898360081</b>
+          <b>Contact Number: +919898360081</b>
           <br />
           <b>E-Mail: axiominfosys9@gmail.com</b>
         </p>

@@ -6,8 +6,8 @@ function CustomerCount() {
   const [counterOn, setCounterOn] = useState(false);
   return (
     <>
-      <div className="countup-main flex text-black justify-center content-center ring-offset-2 ring-2  rounded-[20px] bg-white p-10 shadow-2 hover:shadow-lg dark:bg-dark-2 md:px-7 xl:px-10">
-        <h4 className=" font-bold text-5xl  m-4">Happy Customer</h4>
+      <div className="countup-main flex text-black justify-center  ">
+        <h4 className=" font-bold text-5xl ">Happy Customer</h4>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-24 m-4 "

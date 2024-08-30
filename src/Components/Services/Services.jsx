@@ -11,7 +11,7 @@ import CustomBuiltPC from "../../assets/Services/CustomBuiltPC.jpeg";
 
 const Service = () => {
   return (
-    <section className="pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+    <section className="pb-12 pt-2 dark:bg-dark lg:pb-[90px]  lg:pt-[8px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -27,7 +27,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap">
+        <div className="mx-4 flex flex-wrap ">
           <ServiceCard
             title="Desktop PC"
             details="PC Problem? We’ll solve it. We’re who you call when your desktop runs slow and your programs stop working. We Also Sell Refurbished PC and System."
