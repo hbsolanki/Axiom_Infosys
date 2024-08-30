@@ -1,4 +1,4 @@
-import React from "react";
+import IMG1 from "../../assets/Aboutus/AxiomAboutus.jpeg";
 
 const About1 = () => {
   return (
@@ -10,11 +10,7 @@ const About1 = () => {
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
-                    <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
-                      alt=""
-                      className="w-full rounded-2xl"
-                    />
+                    <img src={IMG1} alt="" className="w-full rounded-2xl" />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img

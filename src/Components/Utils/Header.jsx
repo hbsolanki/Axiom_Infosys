@@ -42,12 +42,8 @@ export default function Example() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <a href="/" className="flex flex-shrink-0 items-center">
-              <img
-                alt="Axiom Infosys"
-                src={Logo}
-                className="h-10 w-auto rounded"
-              />
+            <a href="/" className="flex flex-shrink-0 items-center text-white">
+              <i>AI</i>
             </a>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">

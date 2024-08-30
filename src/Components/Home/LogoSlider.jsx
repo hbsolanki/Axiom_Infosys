@@ -21,7 +21,7 @@ import VaioLogo from "../../assets/Brandweserv/VaioLogo.png";
 const LogoSlider = () => {
   const settings = {
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 7,
     slidesToScroll: 3,
     dots: true,
     arrows: true,
@@ -31,9 +31,9 @@ const LogoSlider = () => {
 
   return (
     <div className="container">
-      <h1>Brands We Serve</h1>
+      <h1 className="h1-slider">Brands We Serve</h1>
       <div className="logo-slider">
-        <Slider {...settings}>
+        <Slider {...settings} className=" h-36">
           <div className="item">
             <a href="#">
               <img src={AppleLogo} alt="Apple Logo"></img>
