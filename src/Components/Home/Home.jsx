@@ -16,7 +16,7 @@ function Home() {
           Also We are <b>Wholesellers</b> of <b>CCTV Cameras</b> and
           <b> SSD's</b>.<br />
           We have all <b>Degree Engineers</b> for work.Also we hold
-          <b>Mastery</b> in <b>Laptop/Desktop</b> Repairing. <br />
+          <b> Mastery</b> in <b>Laptop/Desktop/Printer</b> Repairing. <br />
           <br />
           We are located at GF-3, Cascade Complex Opp. Mota Appartment, beside
           Raju Pan Corner, Chhani Jakatnaka, Vadodara, Gujarat - 390002 <br />

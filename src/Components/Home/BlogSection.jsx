@@ -72,11 +72,10 @@ export default function BlogSection() {
               />
             </svg>
             <h3 className="text-xl font-semibold text-orange-500 my-3">
-              Exprerienced Professionals
+              Exprerienced Technicians
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A id
-              exercitationem ipsum ducimus blanditiis,
+            Our skilled technicians are certified by leading industry organizations, ensuring that you receive top-notch service and repairs. From routine maintenance to complex repairs, our team is equipped with the expertise and tools needed to get your devices back in optimal condition.
             </p>
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between">
@@ -94,11 +93,10 @@ export default function BlogSection() {
             </svg>
 
             <h3 className="text-xl font-semibold text-orange-500 my-3">
-              Exprerienced Professionals
+            Custom Solutions
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A id
-              exercitationem ipsum ducimus blanditiis,
+            Understanding that every customer has unique needs, we offer custom solutions to fit your specific requirements. From configuring a new system to setting up specialized software, we tailor our services to meet your individual needs.
             </p>
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between">
@@ -116,11 +114,10 @@ export default function BlogSection() {
             </svg>
 
             <h3 className="text-xl font-semibold text-orange-500 my-3">
-              Exprerienced Professionals
+            Ongoing Support
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A id
-              exercitationem ipsum ducimus blanditiis,
+            Our commitment to you extends beyond the initial purchase or service. We offer ongoing support and assistance to address any questions or issues you may have. Whether you need help with setup, troubleshooting, or advice on maintaining your device, we're here to assist.
             </p>
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between">
@@ -138,11 +135,10 @@ export default function BlogSection() {
             </svg>
 
             <h3 className="text-xl font-semibold text-orange-500 my-3">
-              Exprerienced Professionals
+            Quality and Reliability
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A id
-              exercitationem ipsum ducimus blanditiis,
+            We only offer products from reputable brands known for their quality and reliability. Additionally, our repair services use high-quality parts and follow rigorous standards to ensure lasting results.
             </p>
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between">
@@ -160,11 +156,10 @@ export default function BlogSection() {
             </svg>
 
             <h3 className="text-xl font-semibold text-orange-500 my-3">
-              Exprerienced Professionals
+            Trusted Reputation
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A id
-              exercitationem ipsum ducimus blanditiis,
+            Our reputation speaks for itself. We are proud of our positive customer reviews and testimonials, which reflect our dedication to quality and customer satisfaction. When you choose <b>Axiom Infosys</b>, you're choosing a trusted partner for all your computer and laptop needs.
             </p>
           </article>
           <article className="flex max-w-xl flex-col items-start justify-between">
@@ -183,11 +178,10 @@ export default function BlogSection() {
             </svg>
 
             <h3 className="text-xl font-semibold text-orange-500 my-3">
-              Exprerienced Professionals
+            Fast and Efficient Service
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A id
-              exercitationem ipsum ducimus blanditiis,
+            We know that time is valuable, which is why we focus on providing fast and efficient service. Whether you're buying a new laptop or need a quick repair, we work diligently to ensure timely turnaround times and minimal disruption to your routine.
             </p>
           </article>
         </div>

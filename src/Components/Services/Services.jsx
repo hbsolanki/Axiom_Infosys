@@ -21,7 +21,7 @@ const Service = () => {
               </span>
               {/* <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]"></h2> */}
               <p className="text-base text-body-color dark:text-dark-6">
-                Sales & Service Provider of Whole Unit & Accessories of
+                Sales & Service Provider of Laptops , Desktop PC'S , CCTV Cameras and Printers.
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Service = () => {
           />
           <ServiceCard
             title="Printers"
-            details="Is your printer giving you trouble? Our expert team is here to help with top-notch printer service and repair solutions. Whether you’re experiencing issues with your home printer or need support for your office’s high-volume machine, we provide reliable and efficient service to get you back up and running."
+            details="Is your printer giving you trouble? Our expert team is here to help with top-notch printer service and repair solutions. Whether you’re experiencing issues or need support. "
             icon={Printers}
           />
           <ServiceCard
@@ -54,9 +54,9 @@ const Service = () => {
             icon={Projector}
           />
           <ServiceCard
-            title="Data Backup & Recovery"
-            details="We can help you back up your important personal data (photos, videos, documents, school work, etc.) to disk and cloud with no hassles."
-            icon={DataRecovery}
+            title="Computer Accessories"
+            details="Explore Our Top-Quality Computer Accessories.Whether you’re a tech enthusiast, a professional, or just looking to upgrade your setup, we offer a wide range of products designed to enhance your computing experience."
+            icon={ComputerAccessories}
           />
           <ServiceCard
             title="Network-Servers"
@@ -64,9 +64,9 @@ const Service = () => {
             icon={NetworkServers}
           />
           <ServiceCard
-            title="Computer Accessories"
-            details="Explore Our Top-Quality Computer Accessories.Whether you’re a tech enthusiast, a professional, or just looking to upgrade your setup, we offer a wide range of products designed to enhance your computing experience. Discover the perfect accessories to complement your computer and elevate your productivity, gaming, or everyday tasks."
-            icon={ComputerAccessories}
+            title="Data Backup & Recovery"
+            details="We can help you back up your important personal data (photos, videos, documents, school work, etc.) to disk and cloud with no hassles."
+            icon={DataRecovery}
           />
           <ServiceCard
             title="Custom Built PC"
