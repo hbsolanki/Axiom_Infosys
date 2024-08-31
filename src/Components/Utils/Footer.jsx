@@ -3,11 +3,21 @@ import { Typography } from "@material-tailwind/react";
 const LINKS = [
   {
     title: "Product",
-    items: ["Overview", "Features", "Solutions", "Tutorials"],
+    items: [
+      { name: "Desktop PC", link: "/services" },
+      { name: "Laptops", link: "/services" },
+      { name: "Printers", link: "/services" },
+      { name: "CCTV", link: "/services" },
+    ],
   },
   {
     title: "Company",
-    items: ["About us", "Careers", "Press", "News"],
+    items: [
+      { name: "Home", link: "/" },
+      { name: "Services", link: "/services" },
+      { name: "Contact", link: "/contact" },
+      { name: "About us", link: "/aboutus" },
+    ],
   },
 ];
 
@@ -43,15 +53,15 @@ export default function Footer() {
                 >
                   {title}
                 </Typography>
-                {items.map((link) => (
-                  <li key={link}>
+                {items.map((link, idx) => (
+                  <li key={idx}>
                     <Typography
                       as="a"
-                      href="#"
+                      href={link.link}
                       color="gray"
                       className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
                     >
-                      {link}
+                      {link.name}
                     </Typography>
                   </li>
                 ))}
