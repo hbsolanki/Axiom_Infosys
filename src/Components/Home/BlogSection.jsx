@@ -16,7 +16,7 @@ export default function BlogSection() {
           {content.map((item, index) => (
             <article
               key={index}
-              className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start text-left"
+              className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-start text-left transition-transform transform hover:scale-105 hover:shadow-xl"
             >
               <div className="text-black mb-4">
                 <item.icon className="w-16 h-16" />

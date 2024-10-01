@@ -4,18 +4,27 @@ function Contact() {
   const [msg, setMsg] = useState("");
   const [name, setName] = useState("");
   const [toEmail, setToEmail] = useState("");
-  let taxtareadChangeHandler = (e) => {
+
+  const taxtareadChangeHandler = (e) => {
     setMsg(e.target.value);
   };
 
-  let nameInputHandler = (e) => {
+  const nameInputHandler = (e) => {
     setName(e.target.value);
   };
 
-  let emailInputHandler = (e) => {
+  const emailInputHandler = (e) => {
     setToEmail(e.target.value);
   };
-  let emailbody = "";
+
+  // Function to create mailto link
+  const createMailtoLink = () => {
+    const subject = encodeURIComponent("WebContact");
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${toEmail}\nMessage: ${msg}`
+    );
+    return `mailto:axiominfosys9@gmail.com?subject=${subject}&body=${body}`;
+  };
 
   return (
     <>
@@ -27,7 +36,13 @@ function Contact() {
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form action="#" method="POST" className="space-y-6">
+          <form
+            onSubmit={(e) => {
+              e.preventDefault(); // Prevent form submission
+              window.location.href = createMailtoLink(); // Open mailto link
+            }}
+            className="space-y-6"
+          >
             <div>
               <label
                 htmlFor="name"
@@ -90,18 +105,12 @@ function Contact() {
             </div>
 
             <div>
-              <a
-                href={`mailto:axiominfosys9@gmail.com?subject=WebContact&body= Name : ${name} \n ${msg} \nfrom our Website`}
+              <button
                 type="submit"
-                className="flex w-full justify-center rounded-md
-                bg-orange-500 px-3 py-1.5 text-sm font-semibold leading-6
-                text-white shadow-sm hover:bg-orange-500 focus-visible:outline
-                focus-visible:outline-2 focus-visible:outline-offset-2
-                focus-visible:outline-orange-500"
+                className="flex w-full justify-center rounded-md bg-orange-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-500"
               >
-                {" "}
                 Send Email
-              </a>
+              </button>
             </div>
           </form>
         </div>

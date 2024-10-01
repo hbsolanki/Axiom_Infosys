@@ -34,112 +34,32 @@ const LogoSlider = () => {
         Brands We Serve
       </h1>
       <div className="logo-slider">
-        <Slider {...settings} className="h-24 sm:h-28 md:h-32 lg:h-36">
-          <div className="px-4">
-            <img
-              src={AppleLogo}
-              alt="Apple Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={HPLOGO}
-              alt="HP Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={DellLogo}
-              alt="Dell Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={AsusLogo}
-              alt="Asus Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={MsiLogo}
-              alt="MSI Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={AcerLogo}
-              alt="Acer Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={MicrosoftLogo}
-              alt="Microsoft Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={SamsungLogo}
-              alt="Samsung Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={IntelLogo}
-              alt="Intel Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={LenovoLogo}
-              alt="Lenovo Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={LGlogo}
-              alt="LG Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={FujitsuLogo}
-              alt="Fujitsu Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={SonyLogo}
-              alt="Sony Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={ToshibaLogo}
-              alt="Toshiba Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
-          <div className="px-4">
-            <img
-              src={VaioLogo}
-              alt="Vaio Logo"
-              className="rounded-lg w-16 sm:w-20 md:w-24 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
-            />
-          </div>
+        <Slider {...settings} className="h-20 sm:h-24 md:h-28 lg:h-32">
+          {[
+            AppleLogo,
+            HPLOGO,
+            DellLogo,
+            AsusLogo,
+            MsiLogo,
+            AcerLogo,
+            MicrosoftLogo,
+            SamsungLogo,
+            IntelLogo,
+            LenovoLogo,
+            LGlogo,
+            FujitsuLogo,
+            SonyLogo,
+            ToshibaLogo,
+            VaioLogo,
+          ].map((logo, index) => (
+            <div key={index} className="px-4">
+              <img
+                src={logo}
+                alt={`Brand logo ${index}`}
+                className="h-16 w-40 sm:w-40 md:w-40 lg:w-32 mx-auto hover:scale-110 hover:-translate-y-1 transition-transform duration-300"
+              />
+            </div>
+          ))}
         </Slider>
       </div>
     </div>
