@@ -14,11 +14,11 @@ const About1 = () => {
                     <img src={IMG1} alt="" className="w-full rounded-2xl" />
                   </div>
                   <div className="py-3 sm:py-4">
-                    <img
+                    {/* <img
                       src="https://i.ibb.co/9y7nYCD/image-3.jpg"
                       alt=""
                       className="w-full rounded-2xl"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
